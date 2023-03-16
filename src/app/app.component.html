@@ -1,2 +1,41 @@
 <h3>Hello Emmanual</h3>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquam perferendis fuga architecto neque iste ipsum tempora, incidunt dolores vel molestiae deleniti ad? Itaque beatae, nisi repellendus nam at explicabo!</p>
+<div class="container">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aliquam perferendis fuga architecto neque iste ipsum tempora, incidunt dolores vel molestiae deleniti ad? Itaque beatae, nisi repellendus nam at explicabo!</p>
+</div>
+
+{{ title }}
+<br>
+<h1>
+{{ mission }}
+</h1>
+<br>
+<app-students></app-students>
+<app-teachers></app-teachers>
+
+
+<!-- Property Binding -->
+<img [src]="imageURL" />
+<a [href] = "url">Youtube</a>
+
+<!-- Event Binding -->
+<br><br>
+
+<button type="button" (click)="onSubmit()">Click Me</button>
+
+<br><br>
+
+<!-- Attribute Bindings -->
+<table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+</table>
+
