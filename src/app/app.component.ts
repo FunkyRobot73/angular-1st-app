@@ -13,6 +13,8 @@ export class AppComponent {
   url = "https://www.youtube.com";
 
   numColumnCollapse=2;
+  cssClass = "border green";
+  bgColor= "orange";
 
   onSubmit(){
     alert('I just Got clicked!')

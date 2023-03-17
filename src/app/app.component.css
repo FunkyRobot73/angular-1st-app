@@ -1,3 +1,26 @@
 p {
     border: 1px black solid;
 }
+
+table, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.blue {
+    background-color: darkblue;
+    color:white;
+}
+
+.green {
+    background-color: darkgreen;
+    color:white;
+}

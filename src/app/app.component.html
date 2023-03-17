@@ -29,13 +29,23 @@
 <table>
     <tr>
         <td>1</td>
-        <td>2</td>
-        <td>3</td>
+        <td [attr.colspan]="numColumnCollapse">2</td>
+        
     </tr>
     <tr>
         <td>4</td>
         <td>5</td>
         <td>6</td>
+        <td>7</td>
     </tr>
 </table>
 
+<!-- Class binding -->
+<br><br>
+
+<div [class]="cssClass">Hello from the other other side</div>
+
+<!-- Style Binding -->
+
+<br><br>
+<div [style.background-color]="bgColor">I Like Eggs...  I like Eggs!</div>
