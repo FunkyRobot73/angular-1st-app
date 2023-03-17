@@ -15,6 +15,8 @@ export class AppComponent {
   numColumnCollapse=2;
   cssClass = "border green";
   bgColor= "orange";
+  name = "John Wick";
+  showBlueColor = true;
 
   onSubmit(){
     alert('I just Got clicked!')

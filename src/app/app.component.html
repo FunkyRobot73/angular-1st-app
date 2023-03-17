@@ -49,3 +49,19 @@
 
 <br><br>
 <div [style.background-color]="bgColor">I Like Eggs...  I like Eggs!</div>
+
+<!-- Two-Way Bindings -->
+<input [(ngModel)] = "name">  {{ name }}
+
+
+<br><br>
+<!-- ngClass Directive -->
+
+<div [ngClass]="{'border': true, 'blue': false, 'green':true}">Another DIV</div>
+<button type="button" (click)="showBlueColor = true">Show Blue</button>
+<button type="button" (click)="showBlueColor = false">Show Green</button>
+
+<br>
+<!-- ngStyle Directive -->
+
+<div [ngStyle]="{'background-color': bgColor, 'color': 'green'}">Another damn DIV</div>
