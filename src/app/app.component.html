@@ -65,3 +65,28 @@
 <!-- ngStyle Directive -->
 
 <div [ngStyle]="{'background-color': bgColor, 'color': 'green'}">Another damn DIV</div>
+
+<!-- ngFor (LOOPING)-->
+
+<ul>
+    <li *ngFor="let studName of names">{{ studName }}</li>
+</ul>
+
+<br>
+
+<!-- ngIf -->
+
+<div *ngIf="showBlueColor; else elseContainer">Show Blue</div>
+<ng-template #elseContainer>Show Green</ng-template>
+
+<!-- //ngSwitch -->
+<ul [ngSwitch]="currentTab">
+    <li *ngSwitchCase="1">Tab 1</li>
+    <li *ngSwitchCase="2">Tab 2</li>
+    <li *ngSwitchCase="3">Tab 3</li>
+    <li *ngSwitchDefault>Tab 4</li>
+</ul>
+
+<!-- Custom Directive  -  MAKE HTML more Dynamic-->
+
+<div appCustom></div>

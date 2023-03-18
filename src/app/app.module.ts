@@ -5,12 +5,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { StudentsComponent } from './components/students/students.component';
 import { TeachersComponent } from './components/teachers/teachers.component';
+import { CustomDirective } from './directives/custom.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentsComponent,
-    TeachersComponent
+    TeachersComponent,
+    CustomDirective
   ],
   imports: [
     BrowserModule, FormsModule

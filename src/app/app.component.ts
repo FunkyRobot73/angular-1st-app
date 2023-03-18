@@ -17,6 +17,9 @@ export class AppComponent {
   bgColor= "orange";
   name = "John Wick";
   showBlueColor = true;
+  names = ["George", "Ringo", "John", "Paul"];
+  currentTab = 8;
+
 
   onSubmit(){
     alert('I just Got clicked!')
